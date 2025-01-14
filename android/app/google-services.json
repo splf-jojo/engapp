@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "238076992377",
+    "project_id": "e88base",
+    "storage_bucket": "e88base.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238076992377:android:58549ac7ff2504bde5ada8",
+        "android_client_info": {
+          "package_name": "com.example.e88"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAlRciFtw28D67QmGCGFWDGsnCIB5Nx5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
