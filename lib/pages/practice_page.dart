@@ -23,6 +23,7 @@ class PracticePage extends StatelessWidget {
           'answers': ['Blue', 'Red', 'Green', 'Yellow'],
           'correctIndex': 0
         },
+
       ]
     },
     {

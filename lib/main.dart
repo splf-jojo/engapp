@@ -90,8 +90,8 @@ class _MainScreenState extends State<MainScreen> {
   int _currentIndex = 0;
 
   final List<Widget> _pages = [
-    HomePage(),
-    DictionaryPage(),
+    // HomePage(),
+    // DictionaryPage(),
     CardsPage(),
     PracticePage(),
   ];
@@ -125,8 +125,8 @@ class _MainScreenState extends State<MainScreen> {
         currentIndex: _currentIndex,
         onTap: _onTabTapped,
         items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-          BottomNavigationBarItem(icon: Icon(Icons.book), label: 'Dictionary'),
+          // BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+          // BottomNavigationBarItem(icon: Icon(Icons.book), label: 'Dictionary'),
           BottomNavigationBarItem(icon: Icon(Icons.card_giftcard), label: 'Cards'),
           BottomNavigationBarItem(icon: Icon(Icons.school), label: 'Practice'),
         ],
@@ -136,13 +136,13 @@ class _MainScreenState extends State<MainScreen> {
 
   String _getTitle() {
     switch (_currentIndex) {
+      // case 0:
+      //   return 'Home';
+      // case 1:
+      //   return 'Dictionary';
       case 0:
-        return 'Home';
-      case 1:
-        return 'Dictionary';
-      case 2:
         return 'Наборы слов';
-      case 3:
+      case 1:
         return 'Practice';
       default:
         return 'Flutter Quizlet-like App';

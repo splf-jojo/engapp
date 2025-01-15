@@ -47,7 +47,6 @@ class _CardsPageState extends State<CardsPage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Наборы слов'),
         centerTitle: true,
         actions: [
           IconButton(
